@@ -10,26 +10,26 @@ const routes = [
     component: () => import("@/views/Home.vue")
   },
   {
-    path: "sponsors",
-    name: "sponsors",
-    component: () => import("@/views/sponsors/ListSponsors.vue")
+    path: "/doglist",
+    name: "doglist",
+    component: () => import("@/views/DogList.vue")
+  },
+ {
+    path: "/contactos",
+    name: "contactos",
+    component: () => import("@/views/ContactForm.vue")
+  },
+   {
+    path: "/login",
+    name: "login",
+    component: () => import("@/views/Login.vue")
   },
   {
-    path: "sponsors/add",
-    name: "addSponsor",
-    component: () => import("@/views/sponsors/AddSponsor.vue")
+    path: "/register",
+    name: "register",
+    component: () => import("@/views/Register.vue")
   },
-  {
-    path: "sponsors/:sponsorId",
-    name: "editSponsor",
-    component: () => import("@/views/sponsors/EditSponsor.vue")
-  },
-  {
-    path: "experts",
-    name: "experts",
-    component: () => import("@/views/experts/ListExperts.vue")
-  },
-  {
+  /*{
     path: "experts/add",
     name: "addExpert",
     component: () => import("@/views/experts/AddExpert.vue")
@@ -170,7 +170,7 @@ const routes = [
     meta: {
       rule: "user"
     }
-  },
+  },*/
   // Redirect to 404 page, if no match found
   {
     path: "*",
