@@ -14,12 +14,12 @@ const routes = [
     name: "doglist",
     component: () => import("@/views/DogList.vue")
   },
- {
+  {
     path: "/contactos",
     name: "contactos",
     component: () => import("@/views/ContactForm.vue")
   },
-   {
+  {
     path: "/login",
     name: "login",
     component: () => import("@/views/Login.vue")

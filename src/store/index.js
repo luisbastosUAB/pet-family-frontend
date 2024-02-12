@@ -14,7 +14,6 @@ export default new Vuex.Store({
   actions: moduleBase.actions,
   modules: {
     auth: moduleAuth,
-    user: moduleUser,
-
+    user: moduleUser
   }
 });

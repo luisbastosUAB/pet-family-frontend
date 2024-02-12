@@ -4,8 +4,8 @@ import {
   FETCH_DOGS,
   ADD_DOG,
   EDIT_DOG,
-  REMOVE_DOG,
- /* // Mutations
+  REMOVE_DOG
+  /* // Mutations
   SET_DOGS,
   SET_MESSAGE,
   UPDATE_LIKES*/
@@ -17,8 +17,7 @@ const state = {
 
 const getters = {
   getDogs: state => state.DOGs,
-  getDogsById: state => id =>
-    state.Dogs.find(DOG => DOG._id === id),
+  getDogsById: state => id => state.Dogs.find(DOG => DOG._id === id),
   getMessage: state => state.message
 };
 
@@ -107,6 +106,6 @@ export default {
   namespaced: true,
   state,
   getters,
-  actions,
-//  mutations
+  actions
+  //  mutations
 };

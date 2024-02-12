@@ -1,7 +1,6 @@
 <template>
   <b-container fluid>
-  <section class="page-section">
-    
+    <section class="page-section">
       <HeaderPage title="Entrar" />
 
       <!--FORM-->
@@ -43,90 +42,134 @@
         </b-col>
         <b-col cols="4"></b-col>
       </b-row>
-
-  </section>
-  <footer>
-            <div class="footer-top-area footer-bg">
-                <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-3">
-                            <div class="footer-widget">
-                                <div class="f-logo">
-                                    <a href="index.html"><img src="../assets/img/logo/logo.png" alt=""></a>
-                                </div>
-                                <div class="footer-text">
-                                    <p>O nosso canil é uma instituição sem fins lucrativos. Vivemos da ajuda de todos!Faça parte desta familia!</p>
-                                </div>
-                                <div class="footer-contact">
-                                    <div class="icon"><i class="fas fa-headphones"></i></div>
-                                    <div class="content">
-                                        <h4 class="title"><a href="tel:0987654321">000-000-0000</a></h4>
-                                        <span>Telefonar agora</span>
-                                    </div>
-                                </div>
-                                <div class="footer-social">
-                                    <ul>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
-                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="footer-widget">
-                                <h4 class="fw-title">Our Policies</h4>
-                                <div class="fw-link">
-                                    <ul>
-                                        <li><a href="contact.html">Privacy Policy</a></li>
-                                        <li><a href="contact.html">Terms and Conditions</a></li>
-                                        <li><a href="contact.html">Editorial Policy</a></li>
-                                        <li><a href="contact.html">Return Policy</a></li>
-                                        <li><a href="contact.html">IP Policy</a></li>
-                                        <li><a href="contact.html">Grievance Redressal Policy</a></li>
-                                        <li><a href="contact.html">Terms and Conditions</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="footer-widget">
-                                <h4 class="fw-title">Nosso serviços</h4>
-                                <div class="fw-link">
-                                    <ul>
-                                        <li><a href="breeder.html">Our Breeder</a></li>
-                                        <li><a href="adoption.html">Our Adoption</a></li>
-                                        <li><a href="contact.html">Editorial Policy</a></li>
-                                        <li><a href="contact.html">Return Policy</a></li>
-                                        <li><a href="contact.html">Grievance Policy</a></li>
-                                        <li><a href="contact.html">Redressal Policy</a></li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-3">
-                            <div class="footer-widget">
-                                <h4 class="fw-title">Instagram</h4>
-                                <div class="fw-insta">
-                                    <ul>
-                                        <li><a href="#"><img src="../assets/img/images/insta_img01.png" alt=""></a></li>
-                                        <li><a href="#"><img src="../assets/img/images/insta_img02.png" alt=""></a></li>
-                                        <li><a href="#"><img src="../assets/img/images/insta_img03.png" alt=""></a></li>
-                                        <li><a href="#"><img src="../assets/img/images/insta_img04.png" alt=""></a></li>
-                                        <li><a href="#"><img src="../assets/img/images/insta_img05.png" alt=""></a></li>
-                                        <li><a href="#"><img src="../assets/img/images/insta_img06.png" alt=""></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+    </section>
+    <footer>
+      <div class="footer-top-area footer-bg">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-3">
+              <div class="footer-widget">
+                <div class="f-logo">
+                  <a href="index.html"
+                    ><img src="../assets/img/logo/logo.png" alt=""
+                  /></a>
                 </div>
-                <div class="footer-shape"><img src="../assets/img/images/footer_shape01.png" alt=""></div>
-                <div class="footer-shape shape-two"><img src="../assets/img/images/footer_shape02.png" alt=""></div>
+                <div class="footer-text">
+                  <p>
+                    O nosso canil é uma instituição sem fins lucrativos. Vivemos
+                    da ajuda de todos!Faça parte desta familia!
+                  </p>
+                </div>
+                <div class="footer-contact">
+                  <div class="icon"><i class="fas fa-headphones"></i></div>
+                  <div class="content">
+                    <h4 class="title">
+                      <a href="tel:0987654321">000-000-0000</a>
+                    </h4>
+                    <span>Telefonar agora</span>
+                  </div>
+                </div>
+                <div class="footer-social">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </footer>
+            <div class="col-2">
+              <div class="footer-widget">
+                <h4 class="fw-title">Our Policies</h4>
+                <div class="fw-link">
+                  <ul>
+                    <li><a href="contact.html">Privacy Policy</a></li>
+                    <li><a href="contact.html">Terms and Conditions</a></li>
+                    <li><a href="contact.html">Editorial Policy</a></li>
+                    <li><a href="contact.html">Return Policy</a></li>
+                    <li><a href="contact.html">IP Policy</a></li>
+                    <li>
+                      <a href="contact.html">Grievance Redressal Policy</a>
+                    </li>
+                    <li><a href="contact.html">Terms and Conditions</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="footer-widget">
+                <h4 class="fw-title">Nosso serviços</h4>
+                <div class="fw-link">
+                  <ul>
+                    <li><a href="breeder.html">Our Breeder</a></li>
+                    <li><a href="adoption.html">Our Adoption</a></li>
+                    <li><a href="contact.html">Editorial Policy</a></li>
+                    <li><a href="contact.html">Return Policy</a></li>
+                    <li><a href="contact.html">Grievance Policy</a></li>
+                    <li><a href="contact.html">Redressal Policy</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-3">
+              <div class="footer-widget">
+                <h4 class="fw-title">Instagram</h4>
+                <div class="fw-insta">
+                  <ul>
+                    <li>
+                      <a href="#"
+                        ><img src="../assets/img/images/insta_img01.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="../assets/img/images/insta_img02.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="../assets/img/images/insta_img03.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="../assets/img/images/insta_img04.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="../assets/img/images/insta_img05.png" alt=""
+                      /></a>
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><img src="../assets/img/images/insta_img06.png" alt=""
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-shape">
+          <img src="../assets/img/images/footer_shape01.png" alt="" />
+        </div>
+        <div class="footer-shape shape-two">
+          <img src="../assets/img/images/footer_shape02.png" alt="" />
+        </div>
+      </div>
+    </footer>
 
     <!-- Copyright Section -->
     <section class="copyright py-4 text-center text-white">
