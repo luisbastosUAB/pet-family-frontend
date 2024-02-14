@@ -9,6 +9,7 @@ export const FETCH_DOGS = "fetchDogs";
 export const ADD_DOG = "addDog";
 export const EDIT_DOG = "editDog";
 export const REMOVE_DOG = "removeDog";
+export const SET_DOGS = "setDOGS";
 
 // USERS
 export const FETCH_USER = "fetchUser";

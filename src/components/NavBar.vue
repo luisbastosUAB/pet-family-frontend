@@ -30,25 +30,27 @@
                 <ul>
                   <div v-if="!isUserLoggedIn">
                     <li class="header-btn">
-                      <a href="/login" class="btn"
-                        >Entrar<img
+                      <router-link class="btn" to="/login"
+                      >Entrar<img
                           src="../assets/img/icon/w_usericon.png"
                           alt=""
-                      /></a>
+                      /></router-link>
                     </li>
+                    
                   </div>
                   <div v-else>
                     <div v-if="getUserType === 'user'">
-                      <a href="" class="read-more"
+                      <router-link class="read-more" to="/admin">Administração</router-link>
+                      <!--<a href="" class="read-more"
                         >Bemvindo, {{ getProfileName }}
                         <img
                           class="avatar"
                           :src="require(`@/assets/avatars/sapo.png`)"
                           :title="getProfileName"
-                      /></a>
+                      /></a>-->
                     </div>
                     <div v-else>
-                      <a href="" class="read-more">Painel de administração</a>
+                      <router-link class="read-more" to="/admin">Administração</router-link>
                     </div>
                   </div>
                 </ul>

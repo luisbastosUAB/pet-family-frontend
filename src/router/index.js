@@ -29,27 +29,32 @@ const routes = [
     name: "register",
     component: () => import("@/views/Register.vue")
   },
+ {
+    path: "/admin",
+    name: "admin",
+    component: () => import("@/views/Admin/Admin.vue")
+  },
+  {
+    path: "/utilizadores",
+    name: "utilizadores",
+    component: () => import("@/views/Admin/Utilizadores.vue")
+  },
+  {
+    path: "/utilizadoreseditar",
+    name: "utilizadoreseditar",
+    component: () => import("@/views/Admin/UtilizadoresEdit.vue")
+  },
+  {
+    path: "/registocaes",
+    name: "registocaes",
+    component: () => import("@/views/Admin/Caes.vue")
+  },
+  {
+    path: "/caoeditar",
+    name: "caoeditar",
+    component: () => import("@/views/Admin/CaoEditar.vue")
+  }
   /*{
-    path: "experts/add",
-    name: "addExpert",
-    component: () => import("@/views/experts/AddExpert.vue")
-  },
-  {
-    path: "experts/:expertId",
-    name: "editExpert",
-    component: () => import("@/views/experts/EditExpert.vue")
-  },
-  {
-    path: "/login",
-    name: "login",
-    component: () => import("@/views/Login.vue")
-  },
-  {
-    path: "/register",
-    name: "register",
-    component: () => import("@/views/Register.vue")
-  },
-  {
     path: "/admin",
     name: "admin",
     component: () => import("@/views/Admin.vue")
@@ -172,7 +177,7 @@ const routes = [
     }
   },*/
   // Redirect to 404 page, if no match found
-  {
+  ,{
     path: "*",
     component: () => import("@/views/Error404.vue")
   }

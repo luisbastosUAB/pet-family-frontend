@@ -2,7 +2,7 @@ import API_URL from "./config.js";
 
 export const dogService = {
   async getDogs(token) {
-    let response = await fetch(`${API_URL}/dogs`, {
+    const response = await fetch(`${API_URL}/dogs`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -16,7 +16,7 @@ export const dogService = {
     }
   },
 
-  async addDogs(token, payload) {
+  async addDog(token, payload) {
     const response = await fetch(`${API_URL}/dogs`, {
       method: "POST",
       headers: {
@@ -69,6 +69,13 @@ function handleResponses(code) {
   switch (code) {
     case 401:
       message = "Não está autorizado a executar esta ação!";
+      break;
+    case 406:
+      message =
+        "Ação não aceitável. Verifique se preencheu bem todos os campos!";
+      break;
+    case 409:
+      message = "Já existe um utilizador com este username!";
       break;
     default:
       message = "Mensagem desconhecida";

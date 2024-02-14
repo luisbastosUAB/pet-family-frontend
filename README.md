@@ -2,7 +2,8 @@
 Trabalho desenvolvimento no âmbito da UC por Luís Bastos
 
 # Acesso ao backend
-o serviço de backend está alojado em [render.com](https://pet-family-backend.onrender.com/)
+O serviço de backend está alojado em [render.com](https://pet-family-backend.onrender.com/)
+para alterar o endereço de backedn, alterar a contante em src/api/config.js
 
 # Instruções Deploy to Firebase:
 

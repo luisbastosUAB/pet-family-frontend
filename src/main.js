@@ -21,6 +21,7 @@ import "./assets/css/default.css";
 import "./assets/css/style.css";
 import "./assets/css/responsive.css";
 
+
 Vue.use(BootstrapVue);
 Vue.use(VueSimpleAlert);
 
