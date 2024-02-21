@@ -38,6 +38,7 @@
             >
               <i class="fas fa-file-signature"></i> REGISTAR
             </router-link>
+            <p>User:teste,Pwd:teste</p>
           </form>
         </b-col>
         <b-col cols="4"></b-col>
